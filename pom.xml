@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.shyiko.klob</groupId>
+    <groupId>io.codetactics.klob</groupId>
     <artifactId>klob</artifactId>
-    <version>0.0.0-SNAPSHOT</version>
+    <version>0.2.1</version>
 
     <name>klob</name>
     <description>A .gitgnore-pattern-based glob library for Kotlin and/or Java 8+</description>
@@ -32,9 +32,9 @@
     </developers>
     <distributionManagement>
         <repository>
-            <id>maven-central</id>
-            <name>Sonatype Nexus Staging</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>bintray-codetactics-oss</id>
+            <name>codetactics-oss</name>
+            <url>https://api.bintray.com/maven/codetactics/oss/klob/;publish=1</url>
         </repository>
     </distributionManagement>
 
